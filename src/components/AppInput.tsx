@@ -1,10 +1,8 @@
 import React from 'react';
-import TextField from '@mui/material/TextField';
+import {TextField} from '@mui/material';
 
 export const AppInput = (props: any) => {
     return (
-        <div>
             <TextField placeholder={props.placeholder}/>
-        </div>
     );
 }
